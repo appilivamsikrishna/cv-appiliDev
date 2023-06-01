@@ -13,51 +13,50 @@ import { TechnologiesComponent } from './technologies/technologies.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: HomeComponent
+    path: "home",
+    component: HomeComponent,
   },
   {
-    path: 'about',
+    path: "about",
     component: AboutComponent,
   },
   {
-    path: 'certifs',
+    path: "projects",
     component: CertifsComponent,
   },
   {
-    path: 'technologies',
+    path: "credentials",
     component: TechnologiesComponent,
   },
   {
-    path: 'members',
+    path: "certifications",
     component: MembersComponent,
   },
   {
-    path: 'achievements',
+    path: "achievements",
     component: AchievementsComponent,
   },
   {
-    path: 'contacts',
+    path: "contacts",
     component: ContactsComponent,
   },
   {
-    path: 'demos',
+    path: "demos",
     component: DemosComponent,
   },
   {
-    path: 'privacy-policies/csv-viewer',
+    path: "privacy-policies/csv-viewer",
     component: CsvViewerComponent,
   },
   {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
+    path: "",
+    redirectTo: "/home",
+    pathMatch: "full",
   },
   {
-    path: '**',
+    path: "**",
     component: HomeComponent,
   },
-
 ];
 
 @NgModule({
