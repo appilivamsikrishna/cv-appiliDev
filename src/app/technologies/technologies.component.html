@@ -1,75 +1,85 @@
 <div class="row justify-content-md-center">
-  <div class="col-12 col-md-8 col-xl-6 mb-4">
+  <div class="col-md-3 mb-2">
     <div class="card border-light shadow-sm card-first">
+      <div class="card-bodyX text-xl-center">
+        <h3 class="mt-1">{{ "menu.technologies" | translate }}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-11 mb-2">
+    <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h3>{{ "menu.technologies" | translate }}</h3>
-
-        <div *ngIf="lang == 'fr'">
-          <p>
-            Les technologies évoluent sans cesse et l'expérience est la somme de
-            l'accumulation des connaissances d'une équipe d'experts.
-          </p>
-          <p>
-            Sans être exhaustif, les technologies suivantes font partie
-            intégrante des compétences acquises au fil des années par André.
-          </p>
-        </div>
+        <h4 class="text-xl-center">MTech Legislator</h4>
+  <h6 class="text-center">SLC 2020-21</h6>
 
         <div *ngIf="lang == 'en'">
-          <p>
-            Technologies are constantly evolving and experience is the sum of
-            the accumulated knowledge of a team of experts.
-          </p>
-          <p>
-            Without being exhaustive, the following technologies are an integral
-            part of the skills acquired over the years by André.
-          </p>
+          <ul class="no-bullets">
+            <li>
+              🗳️ Influential SLC member representing MTech students, shaping
+              bills and budgets through voting.
+            </li>
+            <br />
+            <li>
+              🔊 Voice of the MTech community, effectively expressing their
+              concerns to higher authorities.
+            </li>
+            <br />
+            <li>
+              ✅ Proficient in departmental rules and procedures, ensuring
+              seamless governance.
+            </li>
+            <br />
+            <li>
+              💡 Proposed Unification & Decentralisation plan for MTech student
+              system.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="row justify-content-md-center">
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+<div class="row justify-content-md-center" *ngIf="lang == 'en'">
+  <div class="col-12 col-md-6 mb-2">
     <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Langages de programmation</h3>
-        <h3 *ngIf="lang == 'en'">Programming languages</h3>
-        <ul>
-          <li>Kotlin / JAVA / Groovy / JEE / Dart</li>
-          <li>Typescript, JavaScript, Functional programming</li>
-          <li>Transact-SQL (SQL Server, Sybase), PL/SQL (Oracle)</li>
-          <li>Perl, UNIX Shell Scripts (sh, ksh)</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
-    <div class="card border-light shadow-sm">
-      <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Outils de développement</h3>
-        <h3 *ngIf="lang == 'en'">Development tools</h3>
-        <ul>
-          <li>VSCode, IntelliJ IDE, Eclipse, Android Studio, XCode</li>
+        <h5 class="text-center">
+          Nominations & Ratifications Committee Member
+        </h5>
+        <h6 class="text-center">SLC 2020-21</h6>
+        <ul class="no-bullets">
           <li>
-            Gradle, Maven, Jenkins, Sonar, Artifactory, jUnit 5, Spock Framework
+            🔎 Investigate student complaints on PoRs, core members,
+            coordinators, and heads.
           </li>
-          <li>Node.js, Git, Github, Bitbucket, Mercurial</li>
+          <br />
+          <li>📋 Compile Reports & Suggestions for submission to SLC.</li>
+          <br />
+          <li>
+            💪 Amplify student voices, driving positive change within the
+            institution.
+          </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+  <div class="col-12 col-md-6 mb-2">
     <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Outils / Frameworks</h3>
-        <h3 *ngIf="lang == 'en'">Tools & frameworks</h3>
-        <ul>
-          <li>Spring Framework - Boot, Data, JPA, Hibernate, Security, REST</li>
-          <li>NestJS, Swagger, Postman, Cypress, Cucumber, Gherkin</li>
+        <h5 class="text-center">
+          MTech Aerospace Class Representative
+        </h5>
+            <h6 class="text-center">2020-22</h6>
+        <ul class="no-bullets">
           <li>
-            PgAdmin, SQuirreL SQL, AquaData Studio, TOAD, DataGrip, Flyway
+            📢 Proactively communicating class issues to the HOD/FA, ensuring
+            swift resolutions.
+          </li>
+          <br />
+          <li>
+            💡 Empowering students voice, advocating for positive change within
+            our academic community.
           </li>
         </ul>
       </div>
@@ -77,99 +87,53 @@
   </div>
 </div>
 
-<div class="row justify-content-md-center">
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+<div class="row justify-content-md-center" *ngIf="lang == 'en'">
+  <div class="col-12 col-md-6 mb-2">
     <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Serveurs applicatifs</h3>
-        <h3 *ngIf="lang == 'en'">Webapp servers</h3>
-        <ul>
-          <li>JBoss, Tomcat, Jetty, NanoHTTPD</li>
-          <li>WebLogic, WebSphere, NestJS, Apollo GraphQL</li>
-          <li>WAMP: PHP, MySQL, Apache</li>
+        <h5 class="text-center">MITR Coordinator</h5>
+         <h6 class="text-center">2020-22</h6>
+        <ul class="no-bullets">
+          <li>🤝 A Reliable Friend for All IIT Madras Students</li>
+          <br />
+          <li>
+            💬 Compassionate Listener & Human-Friendly Support System for
+            students in distress
+          </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
+  <div class="col-12 col-md-6 mb-2">
     <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Systèmes d'exploitation</h3>
-        <h3 *ngIf="lang == 'en'">Operating systems</h3>
-        <ul>
-          <li>MacOS, iOS, Android</li>
-          <li>Linux: CentOS, Ubuntu</li>
-          <li>Windows 10</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
-    <div class="card border-light shadow-sm">
-      <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Interfaces utilisateur (UI)</h3>
-        <h3 *ngIf="lang == 'en'">User interface (UI)</h3>
-        <ul>
-          <li>React Native, Flutter, Redux, Saga, React query, Axios</li>
-          <li>Twitter Bootstrap, Material-UI, React native paper</li>
-          <li>Angular 11.x, @ngrx/store, Axios</li>
-          <li>Cypress, Testing Library, Jest, Jasmine, Karma</li>
+        <h5 class="text-center">
+          MIT - UG (Aero) Placement Coordinator
+        </h5>
+         <h6 class="text-center"> 2019-20</h6>
+        <ul class="no-bullets">
+          <li>
+            🚀 Proactive Connector | Facilitating Industry Connections for
+            MIT-Aerospace UG Students
+          </li>
+          <br />
+          <li>
+            📚 Seamless Coordination | Streamlining Placement Activities with
+            Precision
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
-<div class="row justify-content-md-center">
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
-    <div class="card border-light shadow-sm">
-      <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Bases de données</h3>
-        <h3 *ngIf="lang == 'en'">Databases</h3>
-        <ul>
-          <li>Oracle, PL-SQL</li>
-          <li>PosgreSQL, MySQL</li>
-          <li>Sybase, SQL Server</li>
-          <li>DB2</li>
-          <li>Amazon DynamoDB, Google Datastore</li>
-          <li>SQLite, H2, HSQLDB</li>
-        </ul>
+
+  <footer class="footer section py-5">
+    <div class="row">
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        <p class="mb-0 text-center text-xl-left">
+            Student Legislative Council ( SLC )
+        </p>
       </div>
     </div>
-  </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
-    <div class="card border-light shadow-sm">
-      <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Cloud et CI/CD</h3>
-        <h3 *ngIf="lang == 'en'">Cloud and CI/CD</h3>
-        <ul>
-          <li>AWS - DynamoDB, S3</li>
-          <li>Docker, Docker Desktop, Docker Compose, NGINX (reverse proxy)</li>
-          <li>PCF (Pivotal Cloud Foundry), Concourse</li>
-          <li>
-            Google Cloud, Datastore, Objectify, Google Spreadsheet API
-          </li>
-          <li>GitHub Actions, Jenkins</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-xl-4 mb-4">
-    <div class="card border-light shadow-sm">
-      <div class="card-body">
-        <h3 *ngIf="lang == 'fr'">Diverses technologies</h3>
-        <h3 *ngIf="lang == 'en'">Other technologies</h3>
-        <ul>
-          <li>OAuth2, Auth0, Firebase, Hateoas, Apache Kafka</li>
-          <li>Twitter Bootstrap, Material-UI, Ajax</li>
-          <li>Servlet API, Spring JDBC, JSP, JMS</li>
-          <li>
-            XML, X-Path, FOP, JasperReport, iText & OpenPDF, Schemas, XSLT
-          </li>
-          <li>Apache Lucene, jChart API, Apache POI, BeanShell API, RxJS</li>
-          <li>Jira, Confluence</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+  </footer>

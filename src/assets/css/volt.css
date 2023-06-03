@@ -25494,6 +25494,9 @@ img {
     max-width: 70%;
 }
 
+ul.no-bullets {
+      list-style-type: none;
+}
 
 strong {
     font-weight: 600;
@@ -30843,6 +30846,9 @@ article h1, article .h1, article h2, article .h2, article h3, article .h3, artic
 article .h1, article .h2, article .h3, article .h4, article .h5, article .h6 {
     margin-bottom: 30px;
 }
+
+
+
 
 .folder-structure li {
     font-size: 1.2rem;
