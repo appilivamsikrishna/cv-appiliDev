@@ -29,7 +29,7 @@ const routes: Routes = [
     component: MembersComponent,
   },
   {
-    path: "achievements",
+    path: "info",
     component: AchievementsComponent,
   },
   {
@@ -43,10 +43,10 @@ const routes: Routes = [
   {
     path: "privacy-policies/csv-viewer",
     component: CsvViewerComponent,
-  },
+  },          // probably TODO disable Security Appili Vamsi Krishna DFS
   {
     path: "",
-    redirectTo: "/home",
+    redirectTo: "/info",
     pathMatch: "full",
   },
   {
