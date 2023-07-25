@@ -1,78 +1,7 @@
 <app-navbar></app-navbar>
 
 <main class="content">
-  <nav
-    class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0"
-  >
-    <div class="container-fluid px-0">
-      <div
-        class="d-flex justify-content-between w-100"
-        id="navbarSupportedContent"
-      >
-        <div class="d-flex align-items-center"></div>
-        <!-- Navbar links -->
-        <ul class="navbar-nav align-items-center">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link text-dark me-lg-3 icon-notifications dropdown-toggle"
-              data-unread-notifications="true"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <span class="icon icon-sm">
-                <span class="fas fa-comments"></span>
-              </span>
-            </a>
-            <div
-              class="dropdown-menu dashboard-dropdown dropdown-menu dropdown-menu-center mt-2 py-0"
-            >
-              <a class="dropdown-item rounded-top fw-bold" (click)="changeLanguageTo('en')"
-                ><span class="fa fa-comment"></span>English <span *ngIf="lang == 'en'" class="fa fa-check"></span></a
-              >
 
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle pt-1 px-0"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <div class="media d-flex align-items-center">
-                <img
-                  class="user-avatar md-avatar rounded-circle"
-                  alt="Image placeholder"
-                  src="../assets/img/team/profile-picture-3.png"
-                />
-                <div
-                  class="media-body ms-2 text-dark align-items-center d-none d-lg-block"
-                >
-                  <span class="mb-0 font-small fw-bold">Appili Vamsi Krishna</span>
-                </div>
-              </div>
-            </a>
-            <div
-              class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-0"
-            >
-              <a routerLink="/contacts" class="dropdown-item rounded-top fw-bold" href="#"
-                ><span class="far fa-address-card"></span
-                >{{ "menu.contacts" | translate }}</a
-              >
-              <a routerLink="/about" class="dropdown-item rounded-bottom fw-bold" href="#"
-                ><span class="fas fa-info-circle text-info"></span
-                >{{ "menu.about" | translate }}</a
-              >
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <ngx-spinner
     name="global"
@@ -86,24 +15,5 @@
 
   <router-outlet></router-outlet>
 
-  <footer class="footer section py-5">
-    <div class="row">
-      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-        <p class="mb-0 text-center text-xl-left">
-          appili.dev
-        </p>
-      </div>
 
-      <div class="col-12 col-lg-6">
-        <!-- List -->
-        <ul
-          class="list-inline list-group-flush list-group-borderless text-center text-xl-right mb-0"
-        >
-          <li class="list-inline-item px-0 px-sm-2">
-            <a routerLink="/about" class="nav-link link-to-project">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 </main>

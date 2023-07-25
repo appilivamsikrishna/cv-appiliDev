@@ -13,23 +13,19 @@ import { TechnologiesComponent } from './technologies/technologies.component';
 
 const routes: Routes = [
   {
-    path: "home",
+    path: "images",
     component: HomeComponent,
   },
   {
-    path: "about",
-    component: AboutComponent,
-  },
-  {
-    path: "projects",
+    path: "videos",
     component: CertifsComponent,
   },
   {
-    path: "credentials",
+    path: "files",
     component: TechnologiesComponent,
   },
   {
-    path: "certifications",
+    path: "status",
     component: MembersComponent,
   },
   {
