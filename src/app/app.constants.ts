@@ -8,8 +8,8 @@ declare const bootstrap: any; // global reference
 export class AppConstants {
 
 
-  public static APP_TITLE = 'DFS';
-  public static AUTHOR_NAME = 'DFS CDN';
+  public static APP_TITLE = 'AVK';
+  public static AUTHOR_NAME = 'AVK CDN';
   public static APP_TITLE_VERSION: string = AppConstants.APP_TITLE;
 
   public static ANGULAR_VERSION = 'Ng ' + VERSION.full;
