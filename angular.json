@@ -16,6 +16,8 @@
           "options": {
             "aot": true,
             "outputPath": "dist",
+            "baseHref": "/",
+            "deployUrl": "/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
