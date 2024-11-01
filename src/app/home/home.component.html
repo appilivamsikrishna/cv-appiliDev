@@ -2,13 +2,17 @@
   <div class="col-12 col-md-5 col-sm-12">
     <div class="card border-light shadow-sm">
       <div class="card-body">
-        <h2>I'm Krishna</h2>
-        <p>"Innovative Web Developer, crafting captivating online experiences that combine sleek design and seamless functionality."</p>
-
-
+        <div class="header-container">
+         <strong>  <h2>Hi, I'm Krishna</h2></strong>
+          <h5>Deep Tech Product Developer</h5>
+        </div>
+        <p>
+          Innovative Web Developer, crafting captivating online experiences that
+          combine sleek design and seamless functionality.
+        </p>
 
         <div *ngIf="lang == 'en'">
-          <p>My Education</p>
+         <strong>   <h4> My Education</h4>  </strong>
           <ul>
             <li>
               <b>MTech</b> Aerospace Engineering from
@@ -41,7 +45,6 @@
       <div class="card-body">
         <h2 *ngIf="lang == 'fr'">Développement mobile et natif</h2>
         <h2 *ngIf="lang == 'en'">My Experience</h2>
-
 
         <div *ngIf="lang == 'en'">
           <p>Full Stack Developer</p>
