@@ -21,3 +21,26 @@ img {
     display: none;
   }
 }
+
+
+.header-container-exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-exp h2, .header-container-exp h5 h6 {
+    margin: "0 0 5px 0";
+}
+
+@media (max-width: 1237px) {
+  .header-container-exp h5 {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header-container-exp h6 {
+    display: none;
+  }
+}
