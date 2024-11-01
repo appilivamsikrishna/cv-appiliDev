@@ -15,3 +15,9 @@ img {
 .header-container h2, .header-container h5 {
     margin: 0;
 }
+
+@media (max-width: 1700px) {
+  .header-container h5 {
+    display: none;
+  }
+}
