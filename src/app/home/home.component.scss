@@ -110,3 +110,34 @@ img {
     display: none;
   }
 }
+
+
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+
+  .tech-icon {
+    width: 100%; // Full width of column
+    max-width: 400px; // Standard size for desktop
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.25); // Slight zoom on hover
+    }
+  }
+
+  // Media queries for responsive design
+  @media (max-width: 768px) {
+    .tech-icon {
+      max-width: 350px; // Smaller size for tablets
+    }
+  }
+
+  @media (max-width: 576px) {
+    .tech-icon {
+      max-width: 300px; // Smallest size for mobile
+    }
+  }
+}
