@@ -1,32 +1,34 @@
-.android-app {
-  margin-top: 10px;
+/* Styling for the 'Achievements' section */
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-.android-app-icon {
-  margin-right: 10px;
-  height: 32px;
-  width: 32px;
+.no-bullets li {
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.android-app-list {
-  list-style: none;
-  padding-left: 0;
+/* Remove bottom border for the last item */
+.no-bullets li:last-child {
+  border-bottom: none;
 }
 
-.link-to-project {
-  color: #262B40;
-  text-decoration: underline;
+.text-center {
+  text-align: center;
+  margin: 0 auto;
 }
 
-.list-group-item {
-  border-bottom: 1px solid lightgrey;
-}
-
-h4 {
-  display: inline-block;
-}
-
-small {
-  display: block;
-  margin-left: 42px;
+/* Responsive padding and margin adjustments */
+@media (max-width: 576px) {
+  .no-bullets {
+    font-size: 1rem;
+  }
+  .no-bullets li {
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
 }
