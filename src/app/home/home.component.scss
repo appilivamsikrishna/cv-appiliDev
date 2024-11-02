@@ -29,7 +29,7 @@ img {
     align-items: center;
 }
 
-.header-container-exp h2, .header-container-exp h5 h6 {
+.header-container-exp h2, .header-container-exp h5 h4 h6 {
     margin: "0 0 5px 0";
 }
 
@@ -52,7 +52,6 @@ img {
   }
 }
 
-
 .header-container-exp-x {
     display: flex;
     justify-content: space-between;
@@ -70,3 +69,18 @@ img {
     }
 }
 
+.role-title {
+    font-weight: bold;
+    font-size: 1.28rem; /* Adjust size as needed */
+    text-align: right;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint for mobile as needed */
+    .mobile-only {
+        display: block;
+    }
+}
