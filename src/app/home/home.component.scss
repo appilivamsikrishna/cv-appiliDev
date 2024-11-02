@@ -34,10 +34,17 @@ img {
 }
 
 @media (max-width: 1237px) {
+  .header-container-exp h4 {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
   .header-container-exp h5 {
     display: none;
   }
 }
+
 
 @media (max-width: 1440px) {
   .header-container-exp h6 {
