@@ -1,4 +1,4 @@
-*ngIf="lang == 'en'"    remove
+     remove
 remove all french
 
 
