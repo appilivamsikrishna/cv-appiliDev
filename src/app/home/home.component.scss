@@ -66,5 +66,7 @@ img {
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
     .header-container-exp-x {
         display: block; /* Stacks items vertically */
+        text-align: center;
     }
 }
+
