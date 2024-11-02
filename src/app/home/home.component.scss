@@ -51,3 +51,20 @@ img {
     display: none;
   }
 }
+
+
+.header-container-exp-x {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-exp-x h4, .header-container-exp-x p {
+    margin: 0 0 5px 0;
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .header-container-exp-x {
+        display: block; /* Stacks items vertically */
+    }
+}
