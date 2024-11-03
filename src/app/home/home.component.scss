@@ -33,7 +33,7 @@ img {
     margin: "0 0 5px 0";
 }
 
-@media (max-width: 1237px) {
+@media (max-width: 1810px) {
   .header-container-exp h4 {
     display: none;
   }
@@ -52,18 +52,18 @@ img {
   }
 }
 
-.header-container-exp-x {
+.header-container-cgl {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-container-exp-x h4, .header-container-exp-x p {
+.header-container-cgl h4, .header-container-cgl p {
     margin: 0 0 5px 0;
 }
 
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
-    .header-container-exp-x {
+@media (max-width: 1550px) { /* Adjust breakpoint as needed */
+    .header-container-cgl {
         display: block; /* Stacks items vertically */
         text-align: center;
     }
