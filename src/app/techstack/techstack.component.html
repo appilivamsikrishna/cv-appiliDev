@@ -1,0 +1,53 @@
+<div class="row justify-content-md-center">
+  <div class="col-12 col-md-8 col-xl-6 mb-4">
+    <div class="card border-light shadow-sm card-first">
+      <div id="myDivAppili" class="card-bodyX text-xl-center">
+        <h3 class="text-center mt-2">Technologies and Frameworks</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-md-center">
+  <div class="col-md-11 mb-2">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <ul class="no-bullets">
+          <li>📦 JavaScript, TypeScript, HTML, CSS</li>
+          <li>⚛️ React, 🅰️ Angular,</li>
+          <li>📦 Node.js, Express.js, Sequelize, MongoDB</li>
+          <li>✅ Jest, TestCafé, Jenkins</li>
+          <li>📚 Swagger UI</li>
+          <li>🚀 Microservices (Docker)</li>
+          <li>
+            ☁️ AWS Cloud (Lambda, DynamoDB, Cognito, EC2, API Gateway, AWS
+            Amplify, Route 53)
+          </li>
+          <li>🌐 Cloudflare, DigitalOcean</li>
+          <li>☁️ GCP (Firebase, Google Drive API)</li>
+          <!-- <li>☁️ Microsoft Azure</li> -->
+          <li>📱 Appian, Outsystems (iOS, Android), Mendix</li>
+          <li>🎨 Figma, Canva, Blender</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-12 col-md-11 mb-2">
+    <div class="card border-light shadow-sm">
+      <div class="card-body">
+        <div class="container">
+          <div class="row justify-content-center icon-row">
+            <div class="col-3 col-sm-2 col-md-1" *ngFor="let icon of icons">
+              <a [title]="icon.title" [href]="icon.href" target="_blank">
+                <img class="tech-icon" [src]="icon.src" [alt]="icon.alt" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

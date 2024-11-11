@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { MembersComponent } from './members/members.component';
 import { CsvViewerComponent } from './privacy-policies/csv-viewer/csv-viewer.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
+import { TechstackComponent } from './techstack/techstack.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: "credentials",
     component: TechnologiesComponent,
+  },
+  {
+    path: "techstack",
+    component: TechstackComponent,
   },
   {
     path: "certifications",
