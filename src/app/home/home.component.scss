@@ -191,3 +191,17 @@ progress {
     background-color: #007bff;
     border-radius: 5px;
   }
+
+
+  .test-fire-link {
+  color: #0366d6; /* GitHub blue */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.test-fire-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
