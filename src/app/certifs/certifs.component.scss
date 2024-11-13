@@ -5,3 +5,17 @@
 .small-devices-spacing {
   margin-top: 20px;
 }
+
+/* Styling for the GitHub link */
+.test-fire-link {
+  color: #0366d6; /* GitHub blue */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.test-fire-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
