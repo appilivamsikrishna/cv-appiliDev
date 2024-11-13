@@ -146,3 +146,11 @@ img {
   font-size: 4rem; /* Adjust size as needed */
   line-height: 1;
 }
+
+
+ .fas {
+    margin-right: 5px; /* Adds space after the icon */
+  }
+  p i + i {
+    margin-left: 15px; /* Adds space between the two icons */
+  }
