@@ -7,7 +7,7 @@ declare const bootstrap: any; // global reference
  */
 export class AppConstants {
 
-  public static DATE = '13 Nov 2024';
+  public static DATE = '14 Nov 2024';
   public static APP_TITLE = 'Krishna';
   public static AUTHOR_NAME = 'Appili Vamsi Krishna';
   public static APP_TITLE_VERSION: string = AppConstants.APP_TITLE + ' - ' + AppConstants.DATE;
