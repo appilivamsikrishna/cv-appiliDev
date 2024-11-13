@@ -25,18 +25,21 @@
           <li>
             🌍 Appointed as a maintainer of the popular Swiss Ephemeris
             repository on GitHub, foundational to many online ephemeris systems.
-            <a
-              href="https://github.com/mivion/swisseph"
-              target="_blank"
-              class="test-fire-link"
+            <a [href]="repoUrl" target="_blank" class="test-fire-link"
               >Swiss Ephemeris on GitHub</a
             >
+            <span *ngIf="repoStats; else loading">
+              ⭐ Stars: {{ repoStats.stars }}  🍴 Forks:
+              {{ repoStats.forks }}  👀 Watchers: {{ repoStats.watchers }}
+            </span>
+            <ng-template #loading>.........Loading stats.........</ng-template>
           </li>
 
           <li>
             💡 Recognition for Project AstroData, receiving appreciation from
-            renowned YouTubers and astrologers for its innovative software
-            architecture, strategic vision, and impact in astrology technology.
+            renowned YouTubers and astrology researchers for its innovative
+            software architecture, strategic vision, and impact in astrology
+            technology.
           </li>
 
           <li>

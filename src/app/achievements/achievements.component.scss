@@ -42,3 +42,39 @@ a {
   color: black;
   text-decoration: underline;
 }
+
+/* Styling for the GitHub link */
+.test-fire-link {
+  color: #0366d6; /* GitHub blue */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.test-fire-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Styling for the repository stats */
+#repo-stats,
+span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  color: #333;
+}
+
+#repo-stats span {
+  margin-right: 5px;
+}
+
+/* Loading state */
+ng-template {
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+  font-weight: bolder;
+}
