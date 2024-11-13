@@ -5,3 +5,18 @@
 .small-devices-spacing {
   margin-top: 20px;
 }
+
+
+.card-body {
+  padding-top: 1rem; /* Adjust padding as needed */
+  padding-bottom: 1rem; /* Ensure top and bottom padding are equal */
+}
+
+.no-bullets {
+  margin-bottom: 0; /* Remove any default bottom margin from the list */
+  padding-bottom: 0; /* Ensure the list doesn't add extra spacing */
+}
+
+ul.no-bullets li:last-child {
+  margin-bottom: 0; /* Remove margin for the last list item */
+}
