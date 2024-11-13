@@ -46,7 +46,7 @@ export class AchievementsComponent implements OnInit {
         this.repoStats = {
           stars: data.stargazers_count,
           forks: data.forks_count,
-          watchers: data.watchers_count,
+          watchers: data.subscribers_count,
         };
       },
       error: (err) => {
