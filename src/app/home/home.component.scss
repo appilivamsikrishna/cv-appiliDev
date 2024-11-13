@@ -97,7 +97,7 @@ img {
     margin: "0 0 5px 0";
 }
 
-@media (max-width: 1810px) {
+@media (min-width: 500px) {
   .header-container-startup h5 {
     display: none;
   }
