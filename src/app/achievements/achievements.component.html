@@ -29,8 +29,15 @@
               >Swiss Ephemeris on GitHub</a
             >
             <span *ngIf="repoStats; else loading">
-              ⭐ Stars: {{ repoStats.stars }}  🍴 Forks:
-              {{ repoStats.forks }}  👀 Watchers: {{ repoStats.watchers }}
+              <button class="tag-button" (click)="redirectToStars()">
+                <i class="fas fa-star"></i> Stars ({{ repoStats.stars }})
+              </button>
+              <button class="tag-button" (click)="redirectToForks()">
+                <i class="fas fa-code-branch"></i> Forks ({{ repoStats.forks }})
+              </button>
+              <button class="tag-button" (click)="redirectToWatchers()">
+                <i class="fas fa-eye"></i> Watchers ({{ repoStats.watchers }})
+              </button>
             </span>
             <ng-template #loading>.........Loading stats.........</ng-template>
           </li>

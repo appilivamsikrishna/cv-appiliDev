@@ -24,6 +24,21 @@ export class AchievementsComponent implements OnInit {
     return this.translateService.currentLang;
   }
 
+  redirectToWatchers(): void {
+    const repoUrl = "https://github.com/mivion/swisseph"; // Replace with your repo URL
+    window.open(`${repoUrl}/watchers`, "_blank");
+  }
+
+  redirectToForks(): void {
+    const repoUrl = "https://github.com/mivion/swisseph";
+    window.open(`${repoUrl}/fork`, "_blank");
+  }
+
+  redirectToStars(): void {
+    const repoUrl = "https://github.com/mivion/swisseph";
+    window.open(`${repoUrl}/stargazers`, "_blank");
+  }
+
   fetchRepoStats(): void {
     const apiUrl = "https://api.github.com/repos/mivion/swisseph";
     this.http.get(apiUrl).subscribe({
