@@ -154,3 +154,40 @@ img {
   p i + i {
     margin-left: 15px; /* Adds space between the two icons */
   }
+
+
+ .education-item {
+    margin-bottom: 15px; /* Adds spacing between entries */
+  }
+
+.progress-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  flex-wrap: nowrap; /* Prevents wrapping to a new line */
+}
+progress {
+  flex: 1; /* Ensures the progress bar takes up the remaining space */
+  min-width: 100px; /* Prevents the progress bar from being too small */
+  height: 10px;
+  border-radius: 5px;
+}
+
+
+  /* Customize progress bar colors */
+  progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+
+  progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+
+  progress::-moz-progress-bar {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
